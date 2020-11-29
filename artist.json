@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Schema for an artist",
+  "type": "object",
+  "properties": {
+    "id": {"type": "number"},
+    "name": {"type": "string"},
+    "functions": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  },
+  "required": ["id", "name", "functions"]
+}

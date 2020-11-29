@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "work": {
+    "id": 10,
+    "name": "Miroirs",
+    "composer": {
+      "id": 100,
+      "name": "Maurice Ravel",
+      "functions": ["Composer"]
+    }
+  },
+  "recording_artists": [
+    {
+      "id": 101,
+      "name": "Alexandre Tharaud",
+      "functions": ["Piano"]
+    },
+    {
+      "id": 102,
+      "name": "Jean-Martial Golaz",
+      "functions": ["Engineer", "Producer"]
+    }
+  ]
+}

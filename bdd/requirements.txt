@@ -1,0 +1,5 @@
+pytest
+jsonschema
+boto3
+pytest-bdd
+jsonref

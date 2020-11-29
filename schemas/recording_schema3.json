@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Schema of a recording",
+  "type": "object",
+
+  "properties": {
+    "id": {"type": "number"},
+    "work": {
+      "type": "object",
+      "properties": {
+        "id": {"type": "number"},
+        "name": {"type": "string"},
+        "composer":
+           {"$ref": "artist.json"}
+      }
+    },
+    "recording_artists": {
+      "type": "array",
+      "items": {"$ref": "artist.json"}
+    }
+  }
+}
